@@ -1,0 +1,54 @@
+{
+    "sourceFile": "client/script.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1738828173895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1738828184486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-const \n\\ No newline at end of file\n+const form = document.querySelector('form');\r\n"
+                },
+                {
+                    "date": 1738828190087,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n const form = document.querySelector('form');\r\n+const \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1738828196078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n const form = document.querySelector('form');\r\n-const \n\\ No newline at end of file\n+const input = \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1738828201942,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n const form = document.querySelector('form');\r\n-const input = \n\\ No newline at end of file\n+const input = document.querySelector('input');\r\n"
+                },
+                {
+                    "date": 1738828207469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,4 @@\n const form = document.querySelector('form');\r\n const input = document.querySelector('input');\r\n+\r\n+const ws = \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1738828212995,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n const form = document.querySelector('form');\r\n const input = document.querySelector('input');\r\n \r\n-const ws = \n\\ No newline at end of file\n+const ws = new WebSocket('ws://localhost:\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1738828225153,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n const form = document.querySelector('form');\r\n const input = document.querySelector('input');\r\n \r\n-const ws = new WebSocket('ws://localhost:\n\\ No newline at end of file\n+const ws = new WebSocket('ws://localhost:5')\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1738828236156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,5 @@\n const input = document.querySelector('input');\r\n \r\n const ws = new WebSocket('ws://localhost:5000')\r\n \r\n-ws\n\\ No newline at end of file\n+ws.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1738828317741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,7 @@\n ws.onopen = (e) =>{\r\n  e.preventDefault();\r\n \r\n  if(input.value){\r\n-    ws.send(input.value):\r\n+    ws.send(input.value)\r\n  }\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1738828173895,
+            "name": "Commit-0",
+            "content": "const "
+        }
+    ]
+}
